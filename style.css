@@ -50,6 +50,7 @@ input[type=number] {
 
 .input-div {
     display: flex;
+    width: 100%;
     height: 1.9rem;
 }
 
@@ -65,4 +66,5 @@ input[type=number] {
     border-radius: 0 20px 20px 0;
     width: 25%;
     background: #FFF100;
+    cursor: pointer;
 }
