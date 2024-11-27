@@ -14,6 +14,7 @@ html,body {
     align-items: center;
     flex-direction: column;
     gap: 4rem;
+    z-index: -99;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -60,6 +61,7 @@ input[type=number] {
     border-radius: 20px 0px 0 20px;
     width: 75%;
     padding-left: 1rem;
+    z-index: 99;
 }
 
 .btn {
@@ -67,4 +69,5 @@ input[type=number] {
     width: 25%;
     background: #FFF100;
     cursor: pointer;
+    z-index: 99;
 }
